@@ -1,20 +1,24 @@
-# fleet_shield
-<<<<<<< HEAD
-FleetShield — a Flutter-based enterprise trip and safety management application with real-time monitoring, SOS alerts, and offline-first support.
-=======
+# FleetShield
 
-Enterprise Trip & Safety Management App
+FleetShield is a Flutter-based enterprise trip and safety management application
+focused on real-time trip monitoring, SOS alerts, secure authentication,
+and offline-first support.
 
-## Getting Started
+## Features
+- Secure enterprise authentication (Azure AD / MSAL)
+- Trip assignment and real-time status tracking
+- SOS alerts with live chat using Firebase
+- Push notifications
+- Offline data caching with SQLite
+- Clean Architecture with Provider state management
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Provider
+- Firebase (Realtime Database, FCM)
+- Azure AD (MSAL)
+- SQLite
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> e0414bb (Initial commit - FleetShield Flutter project)
+## Architecture
+Clean Architecture with feature-based modularization separating
+presentation, domain, and data layers.
